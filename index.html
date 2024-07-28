@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lector de Velocidad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo">
+        <h1>Mi Sitio Web</h1>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+  <div id="portada" >
+    <h1>Bienvenido al Lector de Velocidad</h1>
+    <p>Este lector te ayudará a calcular tu velocidad de lectura.</p>
+    <button id="button">Comenzar</button>
+  </div>
+  
+  <div id="lectura" style="display: none;">
+    
+    <!--<p id="texto">La importancia de la microbiota intestinal en la salud humana es un tema poco conocido pero vital. La microbiota intestinal, compuesta por trillones de microorganismos que viven en nuestro intestino, desempeña un papel crucial en la digestión, la regulación del sistema inmunológico y la protección contra patógenos. Un desequilibrio en esta microbiota, conocido como disbiosis, puede contribuir a diversas enfermedades, incluyendo trastornos digestivos, enfermedades autoinmunes y problemas de salud mental. Para mantener una microbiota saludable, es esencial llevar una dieta rica en fibra, evitar el uso innecesario de antibióticos y considerar el uso de probióticos.</p>-->
+     <P id="texto">una persona sin vision al futuro, siempre vuelve al pasado</P> 
+    <div class="botonaso">
+        <button id="terminar" style="display: none;">Terminar</button>
+    </div>
+
+</div>
+
+
+  <div id="resultado" style="display: none;">
+    <p>Tu velocidad de lectura es: <span id="wpm"></span> palabras por minuto (WPM)</p>
+    <p>Tu porcentaje de comprensión es: <span id="comprension"></span>%</p>
+    <button id="reiniciar">Reiniciar</button>
+  </div>
+</main>
+
+
+
+
+
+  <script src="codigo.js"></script>
+</body>
+</html>

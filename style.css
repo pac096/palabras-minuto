@@ -1,0 +1,273 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    
+
+  }
+  
+
+  /* PORTADA */
+
+
+
+  .main-header {
+    background-color: #272727;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fija el header en la parte superior */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho de la página */
+    top: 0; /* Posiciónalo en la parte superior */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 1em;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.main-nav a:hover {
+    background-color: #555;
+}
+
+main {
+  padding-top: 100px;
+}
+
+#portada h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  background: linear-gradient(270deg, #00f, #f0f, #f00, #0ff);
+  background-size: 200% 200%;
+  color: transparent;
+  background-clip: text;
+  animation: gradientAnimation 5s ease infinite;
+  display: inline-block;
+}
+
+
+#portada p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+ #portada {
+            background: #4a4a4a;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+        #portada p {
+          color: white;
+        }
+
+
+        #portada h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+            background: linear-gradient(270deg, #00f, #f0f, #f00, #0ff);
+            background-size: 600% 600%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: gradientAnimation 8s ease infinite;
+        }
+
+        #portada p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        #comenzar {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        #comenzar:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+
+
+          
+
+
+
+
+
+  
+  #texto {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #terminar {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #terminar:hover {
+    background-color: #0056b3;
+  }
+
+  .botonaso {
+    display: flex;
+    justify-content: center;
+  }
+
+  #lectura {
+    display: flex;
+    justify-content: center;
+            background-color: #2d2b2b;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        
+
+
+
+        #terminar {
+
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+        }
+
+        #terminar:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+
+
+        /*finish*/
+
+
+#resultado{
+  max-width: 600px;
+  background: #4a4a4a;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  width: 80%;
+
+
+}
+
+#reiniciar{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#reiniciar:hover{
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+  
